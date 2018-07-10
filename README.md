@@ -14,14 +14,15 @@ Summary: Click utility functions
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/clickclick-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/clickclick-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/clickclick-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/clickclick-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/clickclick-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/clickclick-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/clickclick-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/clickclick-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/clickclick/badges/version.svg)](https://anaconda.org/conda-forge/clickclick)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/clickclick/badges/downloads.svg)](https://anaconda.org/conda-forge/clickclick)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-clickclick-green.svg)](https://anaconda.org/conda-forge/clickclick) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/clickclick.svg)](https://anaconda.org/conda-forge/clickclick) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/clickclick.svg)](https://anaconda.org/conda-forge/clickclick) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/clickclick.svg)](https://anaconda.org/conda-forge/clickclick) |
 
 Installing clickclick
 =====================
