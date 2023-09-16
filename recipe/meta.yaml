@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.8
     - six
     - flake8
     - pip
   run:
-    - python
+    - python >=3.8
     - click >=4.0
     - pyyaml >=3.11
 
