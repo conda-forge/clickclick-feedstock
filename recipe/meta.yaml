@@ -1,5 +1,5 @@
 {% set name = "clickclick" %}
-{% set version = "1.2.2" %}
+{% set version = "20.10.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/clickclick-{{ version }}.tar.gz
-  sha256: 4a890aaa9c3990cfabd446294eb34e3dc89701101ac7b41c1bff85fc210f6d23
+  sha256: 4efb13e62353e34c5eef7ed6582c4920b418d7dedc86d819e22ee089ba01802c
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 2
+  number: 0
 
 requirements:
   host:
