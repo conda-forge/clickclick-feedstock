@@ -146,4 +146,5 @@ Feedstock Maintainers
 =====================
 
 * [@rvalieris](https://github.com/rvalieris/)
+* [@rxm7706](https://github.com/rxm7706/)
 
