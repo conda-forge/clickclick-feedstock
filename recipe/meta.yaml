@@ -6,22 +6,22 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/clickclick-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/clickclick-{{ version }}.tar.gz
   sha256: 4efb13e62353e34c5eef7ed6582c4920b418d7dedc86d819e22ee089ba01802c
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - six
     - flake8
     - pip
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - click >=4.0
     - pyyaml >=3.11
 
@@ -32,6 +32,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://codeberg.org/hjacobs/python-clickclick
