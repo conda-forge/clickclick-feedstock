@@ -20,6 +20,7 @@ requirements:
     - six
     - flake8
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
     - click >=4.0
